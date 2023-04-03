@@ -24,7 +24,7 @@ header {
 
 }
 
-header .toggle {
+.toggle {
     position: relative;
     max-width: 60px;
     cursor: pointer;
@@ -33,7 +33,7 @@ header .toggle {
     z-index: 100;
 }
 
-header .toggle img {
+ .toggle img {
     max-width: 100%;
 }
 
@@ -42,7 +42,7 @@ header .toggle img {
     width: 100%;
     min-height: 100vh;
     padding: 0px 25px;
-    background: url(./pasta\ img/back.jpg);
+    background: url(./assets/back.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -101,4 +101,25 @@ header .toggle img {
     border: 0;
     -webkit-border-radius: 20px;
     border-radius: 20px;
+}
+
+.menuLateral{
+height: 100vh;
+width: 22vw;
+background-color: #2f573c;
+position: absolute;
+top: -100%;
+right: 0;
+transition: 1s;
+opacity: 40%;
+text-align: center;
+display: flex;
+justify-content: center;
+padding: 0 30px ;
+padding-top: 70px;
+}
+
+.view {
+    transition: 1s;
+    top: 0;
 }

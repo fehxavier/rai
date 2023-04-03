@@ -38,7 +38,7 @@ header .toggle img {
     width: 100%;
     min-height: 100vh;
     padding: 0px 25px;
-    background: url(./pasta\ img/back.png);
+    background: url(./assets/back.png);
     background-position: center;
     background-size: cover;
     display: flex;
